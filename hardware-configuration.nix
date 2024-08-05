@@ -6,7 +6,7 @@
   fileSystems."/" = {
     device = "nil";
     fsType = "tmpfs";
-    options = [ "rw" "noatime" "size=64Gi" ];
+    options = [ "rw" "noatime" "size=64G" ];
   };
 
   fileSystems."/boot" = {
