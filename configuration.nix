@@ -6,7 +6,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  filesystems."/nix".neededForBoot = true;
+  fileSystems."/nix".neededForBoot = true;
   environment.persistence."/nix/persist" = {
     enable = true;
     hideMounts = true;
