@@ -10,7 +10,7 @@
   environment.persistence."/nix/persist" = {
     enable = true;
     hideMounts = true;
-    direcotries = [
+    directories = [
       "/home"
       "/etc/nixos"
       "/etc/ssh"
