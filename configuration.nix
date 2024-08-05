@@ -24,9 +24,7 @@
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" ];
     initialHashedPassword = "$y$j9T$y2pdRRvDEkM6O24XYVEYE1$7JbyqwK9y9qzBz./eqvTiUM8VQepgnzuGt6ezHnMAI/";
-    shell = pkgs.fish;
   };
 
-  system.copySystemConfiguration = true;
   system.stateVersion = "24.05";
 }
